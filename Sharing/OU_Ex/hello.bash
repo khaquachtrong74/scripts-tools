@@ -1,18 +1,12 @@
-#!bin/bash
+#!/bin/bash
+echo -n "Xin chào : "; read name
+echo -n "Hãy nhập số tuổi vào đây : "; read age
 
-echo -n "Xin chao: "
-read name
-thungay=$(date +%A)
-echo "$USER  wow, ban dep trai phet day"
-echo -n "Hom nay la $thungay "
-echo ""
-echo "Chuc ban ngay cang dz"
-function check_even_odd(){
-	read val
-	if[ $(( $val % 2 )) -eq 0 ]; then
-		echo "$val la so chan"
-	else
-		echo "$val la so le"
-	fi
+chao() {
+	yourName=$1
+	yourAge=$2
+	echo "Xin chào: $yourName"
+	echo "Năm nay bạn $yourAge tuổi"
 }
-check_even_odd();
+chao $name $age
+
