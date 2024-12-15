@@ -1,0 +1,3 @@
+Trí tuệ nhân tạo là một ngành thuộc lĩnh vực khoa học máy tính. 
+Mục tiêu là giúp máy tính có thể thực hiện các hành vi thông minh như con 
+người.

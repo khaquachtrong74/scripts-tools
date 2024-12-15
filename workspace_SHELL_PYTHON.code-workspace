@@ -5,6 +5,12 @@
 		},
 		{
 			"path": "D:/Technlogy_OpenSource_OU"
+		},
+		{
+			"path": "\\\\wsl.localhost\\Ubuntu\\home\\detbeed\\dirCpp\\Operator\\Editor"
+		},
+		{
+			"path": "\\\\wsl.localhost\\Ubuntu\\home\\detbeed\\LearnGo"
 		}
 	],
 	"settings": {}
