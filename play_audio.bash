@@ -1,6 +1,6 @@
 #!/bin/bash
 
-path="/$HOME/Audio"
+path="$HOME/Audio"
 FILES=("$path"/*) # Array list of audio
 SOCKET="/tmp/mpvsocket"
 HISTORY=()
@@ -39,17 +39,25 @@ play_prev(){
 		echo "YOU ARE IN FIRST AUDIO, CANNOT PLAY PREV"
 	fi
 }
+
+play_random(){
+	local random_index=$((RANDOM % ${#FILES[@]})) local random_file="${FIL}"
+	local random_file="${FILES[$random_index]}"
+	echo "PLAYING RANDOM : $random_file"
+	send_command "loadfile \" ${random_file//\"/\\\"}\""
+}
 start_mpv
 
 while true
 do
 	echo "================================"
-	echo "[n]->NEXT | [p]->prev | [q]->quit"
+	echo "[n]->NEXT | [p]->prev | [r]->random | [q]->quit"
 	read -n 1 -s action
 	echo ""
 	case $action in
 		n) play_next ;;
 		p) play_prev;;
+		r) play_random;;
 		q) send_command "quit"; echo "END PROGRAM."; break;;
 		*) echo "Invalid Choice, pls try again!"
 	esac
