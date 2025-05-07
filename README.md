@@ -6,5 +6,7 @@ Enjoy it.
 ### FIX and Update with dialog to make it cool
 DATE:09/02/2025
 ### BashShell
+Should have python 3.x >= 3.8
 Ok, Right now you can use PLayAudio.bash to run song or downloadsYoutubeAudio.bash to get some .mp3 awsome you find on youtube.
-#### FORMAT DATE: dd/MM/yyyy
+### Start create something new!
+
