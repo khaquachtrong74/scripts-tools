@@ -1,0 +1,5 @@
+Hostname:  nixos
+Platform:  nixos 25.11 (Xantusia)
+CPU:  11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz
+RAM:  15771  MB
+Disk:  160184  MB
