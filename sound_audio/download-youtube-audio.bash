@@ -17,3 +17,4 @@ if [ $? -ne 0 ]; then
 	move $?
 fi
 
+# need yt-dlp, but it can be error with now version

@@ -17,3 +17,4 @@ while true; do
     fi
 done
 
+# need mpg123 dialog packages
