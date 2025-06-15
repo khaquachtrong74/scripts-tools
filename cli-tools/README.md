@@ -5,7 +5,7 @@ tags:
 ---
 ---
 
-# Get-computer-information
+# get-computer-information
 
 ```bash
 ./get-computer-information
@@ -22,7 +22,7 @@ RAM:  15771  MB
 Disk:  160184  MB
 ```
 
-# Live-server-local
+# live-server-local
 
 Yeah, it work like live-server extension on `visualcode`, you just need add directory of your source to flag `-path=`, maybe absolute path or relative path is fine.
 
@@ -33,7 +33,7 @@ Yeah, it work like live-server extension on `visualcode`, you just need add dire
 ./live-server-local -path # I set default path is ./ so don't worry
 ```
 
-If you want to automatically change what `*.html`, please add it into your `*.html` file
+If you want to automatically change what `*.html`, please add tag meta below with `http-equiv` into your `*.html` file
 
 ```html
 <!DOCTYPE html>
@@ -49,4 +49,21 @@ If you want to automatically change what `*.html`, please add it into your `*.ht
 <body>...</body>
 </html>
 ...
+```
+
+# todo-app
+
+Yeah, this is todo  app run on `CLI` with some features I add.
+Describe
+```bash
+./todo-app -h
+Usage of ./todo-app:
+	-clear #bool
+		Switch true to `clear` boltDB #Database
+	-priority int
+		Enter priority of task # default 0
+	-read #bool
+		Switch true to `read` task today bro!
+	-task #string
+		Enter your task today! (default "Default task")
 ```
