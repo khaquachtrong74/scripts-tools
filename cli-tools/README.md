@@ -67,3 +67,9 @@ Usage of ./todo-app:
 	-task #string
 		Enter your task today! (default "Default task")
 ```
+
+# Pomodoro
+Help remind your work by alert you cli and chill audio when break times
+```Go
+./pomodoro
+```
