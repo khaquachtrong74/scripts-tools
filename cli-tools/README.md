@@ -68,8 +68,16 @@ Usage of ./todo-app:
 		Enter your task today! (default "Default task")
 ```
 
-# Pomodoro
-Help remind your work by alert you cli and chill audio when break times
-```Go
-./pomodoro
-```
+
+# 📌 Pomodoro Timer
+
+Program **Pomodoro Timer** help you increase focus, work effectively by divided time into cycle:
+- **Eassy** - Suit for beginner work on 20 minutes 
+		
+- **Medium Rare** - Update a little when you don't want to work only 20 minutes, you change, you become unstoppable when your limit time is 30 minutes.
+- **Supper Egg** - This kind of level can tell you who you are when your energy become like super human with incredible thinking, your own goal just wait for you working 4 hours.
+    
+- **Default break - 20 minutes**: chill with lofi audio
+    
+
+All in ones, with cli-tools, easy, speed up,....
