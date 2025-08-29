@@ -16,5 +16,4 @@ while true; do
         break  
     fi
 done
-
 # need mpg123 dialog packages
